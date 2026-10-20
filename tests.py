@@ -1,4 +1,4 @@
-from find_reacheble_vertices import (
+from find_reachable_vertices import (
     read_incidence_matrix,
     reverse_incidence_matrix,
     dfs,
