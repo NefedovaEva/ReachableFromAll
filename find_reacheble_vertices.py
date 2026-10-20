@@ -76,7 +76,7 @@ def find_vertices_reachable_from_all(incidence_matrix):
 
 
 def main():
-    incidence_matrix = read_incidence_matrix("test/input.txt")
+    incidence_matrix = read_incidence_matrix("test_data/input.txt")
     result = find_vertices_reachable_from_all(incidence_matrix)
 
     if result:
